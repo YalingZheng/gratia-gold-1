@@ -53,8 +53,9 @@ GROUP BY
   MachineName,
   ProjectName
 ORDER BY JUR.dbid ASC
-LIMIT 10000
-""" % MAX_ID
+limit %d
+""" % (MAX_ID, MAX_ID)
+
 
 # %d day of month (00-31)
 
